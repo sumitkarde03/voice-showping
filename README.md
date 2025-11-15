@@ -62,7 +62,7 @@ npm run build
 
 5. Deploy the `dist` or platform-specific build folder to Vercel, Netlify, or any static host that supports the production build.
 
-## Approach summary (≈200 words)
+## Approach summary
 
 This project implements a voice-first shopping experience by combining Web Speech API-based recognition with a lightweight, relevance-driven product-matching algorithm. The UI is a standard React + Vite single-page app with a small, focused catalogue. On the voice side, the system captures a user transcript, normalizes text, and extracts constraints such as product names, tags, and optional price cues. Matching uses a multi-factor scoring model: exact title or SKU matches are prioritized, followed by prefix and substring matches; tag hits boost relevance significantly because tags encode high-level category and attribute information. Availability is treated as a hard filter by default to avoid adding out-of-stock items; users may override this by specifying availability intent. Scores are adjusted for inferred price constraints so that results under a spoken limit are favored. This mix of deterministic rules and tunable weights creates predictable behavior for common voice queries while still allowing fuzzy matching for partial phrases. The architecture keeps voice processing client-centric for responsive interactions, with the option to delegate heavy matching to a backend if scale or privacy needs evolve.
 
