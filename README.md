@@ -2,6 +2,12 @@
 
 This README includes only the essential information for local development, the product-matching algorithm, deploy steps, and a concise project approach summary.
 
+## Live Demo
+Open the app here:  
+https://voice-showping-git-main-sumitkarde03s-projects.vercel.app?_vercel_share=w7qnLJxt0SwhmsDFTW5XzvjFhaiWrYtB
+
+---
+
 ## How to run locally
 
 1. Install dependencies
@@ -61,6 +67,24 @@ npm run build
 4. Configure authentication redirect URLs in Supabase to your production domain (e.g., `https://yourdomain.com/auth/callback`).
 
 5. Deploy the `dist` or platform-specific build folder to Vercel, Netlify, or any static host that supports the production build.
+
+## 📝 Screenshots
+
+> Upload your images inside a folder named **/screenshots** in your repo, then update the filenames below.
+
+### 🖼️ Home Page  
+![Home Page](<img width="1919" height="1068" alt="image" src="https://github.com/user-attachments/assets/d5242e11-d3c3-4867-831b-846e842d2666" />
+)
+
+### 🎤 Voice Input Enabled  
+![Voice Input](<img width="1419" height="1076" alt="image" src="https://github.com/user-attachments/assets/e12531c4-41a4-47ab-8e1a-8da082b00690" />
+)
+
+### 🤖 AI Response Screen  
+![AI Response](<img width="1898" height="997" alt="image" src="https://github.com/user-attachments/assets/a4c0d5df-ec0b-46c3-ad6d-f690fb78a685" />
+)
+
+---
 
 ## Approach summary
 
